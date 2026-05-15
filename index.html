@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Wealth</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:black;
+color:white;
+overflow-x:hidden;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.8)),
+url('https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1600&auto=format&fit=crop');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:30px;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+}
+
+.logo{
+width:250px;
+margin-bottom:30px;
+}
+
+h1{
+font-size:70px;
+font-weight:900;
+margin-bottom:20px;
+}
+
+.gradient{
+background:linear-gradient(90deg,#35d9ff,#005dff);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero p{
+font-size:22px;
+line-height:1.8;
+max-width:900px;
+margin:auto;
+color:#ddd;
+margin-bottom:40px;
+}
+
+.btn{
+display:inline-block;
+padding:18px 40px;
+border-radius:50px;
+background:linear-gradient(90deg,#37d8ff,#005dff);
+text-decoration:none;
+color:white;
+font-size:20px;
+font-weight:700;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+.section{
+padding:100px 30px;
+}
+
+.title{
+text-align:center;
+font-size:50px;
+font-weight:900;
+margin-bottom:20px;
+}
+
+.subtitle{
+text-align:center;
+max-width:900px;
+margin:auto;
+color:#aaa;
+font-size:20px;
+line-height:1.7;
+margin-bottom:70px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
+}
+
+.card{
+background:#0d0d0d;
+padding:40px;
+border-radius:30px;
+border:1px solid rgba(0,150,255,.2);
+}
+
+.card h3{
+font-size:35px;
+margin-bottom:15px;
+}
+
+.price{
+font-size:50px;
+font-weight:900;
+color:#38d8ff;
+margin-bottom:20px;
+}
+
+.card ul{
+line-height:2;
+color:#ccc;
+list-style:none;
+}
+
+.bonus{
+margin-top:25px;
+padding:20px;
+background:#151515;
+border-radius:20px;
+}
+
+.bonus strong{
+color:#35d9ff;
+}
+
+.cta{
+padding:120px 30px;
+text-align:center;
+background:
+linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9)),
+url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1600&auto=format&fit=crop');
+background-size:cover;
+background-position:center;
+}
+
+.cta h2{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.cta p{
+max-width:900px;
+margin:auto;
+line-height:1.8;
+font-size:22px;
+color:#ddd;
+margin-bottom:40px;
+}
+
+footer{
+padding:40px;
+text-align:center;
+border-top:1px solid rgba(255,255,255,.1);
+color:#888;
+}
+
+footer img{
+width:150px;
+margin-bottom:20px;
+}
+
+@media(max-width:768px){
+
+h1{
+font-size:45px;
+}
+
+.title{
+font-size:40px;
+}
+
+.cta h2{
+font-size:40px;
+}
+
+.hero p,
+.cta p{
+font-size:18px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="container">
+
+<img src="logo.png" class="logo">
+
+<h1>
+Duplica y
+<span class="gradient">Multiplica</span>
+</h1>
+
+<p>
+Descubre el potencial de My Wealth, una comunidad global enfocada en crecimiento financiero, expansión y grandes beneficios mediante un sistema de matriz 2x2.
+</p>
+
+<a class="btn"
+href="https://wa.me/51918836833?text=Carlos%20cuentame%20mas%20de%20MY%20WEALTH"
+target="_blank">
+QUIERO MÁS INFORMACIÓN
+</a>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="title">
+Rondas de
+<span class="gradient">Crecimiento</span>
+</h2>
+
+<p class="subtitle">
+Explora las oportunidades, ciclos y beneficios presentados dentro del ecosistema My Wealth.
+</p>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Ronda 1</h3>
+
+<div class="price">100 USDT</div>
+
+<ul>
+<li>✔ Ciclo 1 → 100 USDT</li>
+<li>✔ Ciclo 2 → 300 USDT</li>
+<li>✔ Ciclo 3 → 900 USDT</li>
+<li>✔ Ciclo 4 → 2,700 USDT</li>
+<li>✔ Ciclo 5 → 8,100 USDT</li>
+</ul>
+
+<div class="bonus">
+<strong>Bonos:</strong><br><br>
+✔ 5,000 USDT<br>
+✔ Viaje de 2,000 USDT
+</div>
+
+</div>
+
+<div class="card">
+
+<h3>Ronda 2</h3>
+
+<div class="price">5,000 USDT</div>
+
+<ul>
+<li>✔ Ciclo 1 → 5,000 USDT</li>
+<li>✔ Ciclo 2 → 15,000 USDT</li>
+<li>✔ Ciclo 3 → 45,000 USDT</li>
+<li>✔ Ciclo 4 → 135,000 USDT</li>
+<li>✔ Ciclo 5 → 405,000 USDT</li>
+</ul>
+
+<div class="bonus">
+<strong>Premios:</strong><br><br>
+✔ Luxury Car 0 KM<br>
+✔ 100,000 USDT
+</div>
+
+</div>
+
+<div class="card">
+
+<h3>Ronda 3</h3>
+
+<div class="price">100,000 USDT</div>
+
+<ul>
+<li>✔ Ciclo 1 → 100,000 USDT</li>
+<li>✔ Ciclo 2 → 300,000 USDT</li>
+<li>✔ Ciclo 3 → 900,000 USDT</li>
+<li>✔ Ciclo 4 → 2.7M USDT</li>
+<li>✔ Ciclo 5 → 8.1M USDT</li>
+</ul>
+
+<div class="bonus">
+<strong>Premio Máximo:</strong><br><br>
+✔ Mansión de lujo<br>
+✔ 500,000 USDT
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<h2>
+¿Quieres conocer más sobre
+<span class="gradient">My Wealth</span>?
+</h2>
+
+<p>
+Descubre más detalles sobre los ciclos, rondas, premios y beneficios exclusivos.
+</p>
+
+<a class="btn"
+href="https://wa.me/51918836833?text=Carlos%20cuentame%20mas%20de%20MY%20WEALTH"
+target="_blank">
+HABLAR POR WHATSAPP
+</a>
+
+</section>
+
+<footer>
+
+<img src="logo.png">
+
+<p>
+“Seguimos construyendo riqueza juntos. Bienvenido a ser parte de My Wealth”
+</p>
+
+</footer>
+
+</body>
+</html>
